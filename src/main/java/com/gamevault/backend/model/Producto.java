@@ -1,14 +1,15 @@
 package com.gamevault.backend.model;
 
 public class Producto {
+
     private Long id;
     private String nombre;
     private double precio;
 
     public Producto(
-    Long id, 
-    String nombre, 
-    double precio) {
+            Long id,
+            String nombre,
+            double precio) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -34,13 +35,12 @@ public class Producto {
         return id;
     }
 
-    public void setId (Long id) {
-        this.id = id; 
+    public void setId(Long id) {
+        this.id = id;
     }
 
     @Override
     public String toString() {
-        return "***** PRODUCTO *****\n" +"Id: " + getId() + "\n" + "Nombre: " + getNombre() + "\n" + "Precio: " + getPrecio() + "\n" + "********************";
+        return "***** PRODUCTO *****\n" + "Id: " + getId() + "\n" + "Nombre: " + getNombre() + "\n" + "Precio: " + getPrecio() + "\n" + "********************";
     }
 }
-    
