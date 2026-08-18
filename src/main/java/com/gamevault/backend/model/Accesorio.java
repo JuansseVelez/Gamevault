@@ -47,6 +47,6 @@ public class Accesorio extends Producto {
 
     @Override
     public String toString() {
-        return "****** ACCESORIO ******" + "\n" + "Id: " + getId() + "\n" + "Nombre: " + getNombre() + "\n" + "Precio: " + getPrecio() + "\n" + "Marca: " + getMarca() + "\n" + "Compatibilidad: " + getCompatibilidad() + "\n" + "Categoria: " + getCategoria() + "\n" + "**********";
+        return "****** ACCESORIO ******" + "\n" + "Id: " + getId() + "\n" + "Nombre: " + getNombre() + "\n" + "Precio: " + getPrecio() + "\n" + "Marca: " + getMarca() + "\n" + "Compatibilidad: " + getCompatibilidad() + "\n" + "Categoria: " + getCategoria() + "\n" + "********************";
     }
 }
