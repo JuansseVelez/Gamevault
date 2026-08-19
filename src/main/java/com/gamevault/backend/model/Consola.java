@@ -1,10 +1,17 @@
 package com.gamevault.backend.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Consola extends Producto {
 
     private String marca;
     private String tipo;
     private String soporte;
+
+    public Consola() {
+
+    }
 
     public Consola(
             Long id,

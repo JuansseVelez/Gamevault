@@ -1,10 +1,17 @@
 package com.gamevault.backend.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Accesorio extends Producto {
 
     private String marca;
     private String compatibilidad;
     private String categoria;
+
+    public Accesorio() {
+
+    }
 
     public Accesorio(
             Long id,

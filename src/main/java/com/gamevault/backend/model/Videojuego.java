@@ -1,9 +1,16 @@
 package com.gamevault.backend.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Videojuego extends Producto {
 
     private String genero;
     private String plataforma;
+
+    public Videojuego() {
+
+    }
 
     public Videojuego(
             Long id,
