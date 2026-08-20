@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: #0f1117;
+  color: #e6e6e6;
+}
+
+.navbar {
+  background-color: #1a1d29;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #2a2d3a;
+}
+
+.navbar-titulo {
+  margin: 0 0 1rem 0;
+  color: #6c5ce7;
+}
+
+.navbar-tabs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tab {
+  background: none;
+  border: 1px solid #2a2d3a;
+  color: #a0a0b0;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.2s;
+}
+
+.tab:hover {
+  border-color: #6c5ce7;
+}
+
+.tab-activa {
+  background-color: #6c5ce7;
+  color: white;
+  border-color: #6c5ce7;
+}
+
+.contenido {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.formulario {
+  background-color: #1a1d29;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.formulario input {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #2a2d3a;
+  background-color: #0f1117;
+  color: #e6e6e6;
+}
+
+.formulario-botones {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primario {
+  background-color: #6c5ce7;
+  color: white;
+}
+
+.btn-secundario {
+  background-color: transparent;
+  border: 1px solid #2a2d3a;
+  color: #a0a0b0;
+}
+
+.tabla-productos {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1d29;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #2a2d3a;
+}
+
+.tabla-productos th {
+  background-color: #22263a;
+  color: #a0a0b0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.btn-icono {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.mensaje-vacio {
+  text-align: center;
+  color: #a0a0b0;
+  padding: 2rem;
+}
+
+.mensaje-error {
+  background-color: #3a1f1f;
+  color: #ff6b6b;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
